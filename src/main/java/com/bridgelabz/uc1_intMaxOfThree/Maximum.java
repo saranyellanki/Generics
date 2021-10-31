@@ -3,7 +3,7 @@ package com.bridgelabz.uc1_intMaxOfThree;
 import java.util.Scanner;
 
 public class Maximum {
-    Integer max = 0;
+    Integer max = (int)Math.pow(-2,31);
     public void intMax(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter first number");
